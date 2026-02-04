@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cyber Security Awareness</title>
+
+<style>
+body{font-family:Arial;background:#fff0f0;margin:0}
+nav{background:red;padding:10px}
+nav a{color:white;margin:10px;text-decoration:none;font-weight:bold}
+section{padding:25px}
+h1,h2{color:red}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid red;padding:8px;text-align:center}
+input,button{padding:8px;margin:5px}
+button{background:red;color:white;border:none}
+</style>
+
+<script>
+function login(){
+ alert("Login Successful (Demo)");
+ return false;
+}
+</script>
+
+</head>
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Awareness</a>
+<a href="#">Login</a>
+</nav>
+
+<section>
+<h1>Cyber Security Awareness</h1>
+<p><b>Hanzala</b> | Roll No: 25-CS-046</p>
+
+<h2>Awareness Tips</h2>
+<ul>
+<li>Use strong passwords</li>
+<li>Avoid phishing emails</li>
+<li>Use antivirus</li>
+</ul>
+
+<h2>Cyber Threats</h2>
+<table>
+<tr><th>Threat</th><th>Solution</th></tr>
+<tr><td>Phishing</td><td>Verify emails</td></tr>
+<tr><td>Malware</td><td>Install antivirus</td></tr>
+</table>
+
+<h2>Login</h2>
+<form onsubmit="return login()">
+<input type="text" placeholder="Username" required><br>
+<input type="password" placeholder="Password" required><br>
+<button>Login</button>
+</form>
+</section>
+
+</body>
+</html>
